@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background :darkseagreen;
+}
+.box{
+    width: 100%;
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+}
+.userInput{
+    display: flex;
+    width: 20%;
+    gap: 5px;
+    height: 100px;
+    flex-direction: column;
+}
+.userInput > *{
+    height: 25px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+::placeholder{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+#movies{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 2%;
+}
+#movies > div > img{
+    max-height: 350px;
+}
