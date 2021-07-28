@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    background :darkseagreen;
+    font-family: sans-serif;
+    text-align: center;
+}
+.box{
+    width: 80%;
+    margin: auto;
+    padding: 2% 5%;
+}
+.userInput{
+    display: flex;
+    width: 20%;
+    gap: 10px;
+    height: 100px;
+    flex-direction: column;
+}
+.userInput > *{
+    height: 25px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+::placeholder{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+.btn{
+    background-color: cadetblue;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgb(44, 115, 117);
+    cursor: pointer;
+}
+.movie{
+    display: grid;
+    grid-template-columns: 40% 58%;
+    gap: 10%;
+    padding: 2%;
+    border: 2px solid black;
+}
+.movie > div{
+    display: flex;
+    width: 100%;
+    padding: 2%;
+    flex-direction: column;
+    text-align: left;
+    font-size: 20px;
+}
+.movie h1{
+    margin: 0%;
+}
+.movie > div > div{
+    display: grid;
+    grid-template-columns: 20% 78%;
+    gap: 2%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+    margin: 2%;
+}
+.high{
+    font-weight: 600;
+    width: 80%;
+}
+.btn2{
+    width: 200px;
+    font-size: 15px;
+    padding: 1%;
+    font-weight: 700;
+}
